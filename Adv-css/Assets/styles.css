@@ -1,0 +1,58 @@
+* {
+    background-color: rgb(75, 83, 90);
+}
+
+:root {
+    --text-color-main: rgb(87, 173, 0);
+    --light: aliceblue;
+}
+
+h1, h2 {
+    color: var(--text-color-main);
+}
+
+ul {
+    color: var(--light);
+}
+
+header {
+    text-align: center;
+    margin: 10px;
+}
+
+header p {
+    color: var(--light);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    margin: 15px;
+    border-style: dotted;
+    border-color: var(--light);
+}
+
+section p {
+    color: var(--text-color-main);
+    margin: 10px;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 15px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 10px;
+}
+
+div {
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
+    );
+}
