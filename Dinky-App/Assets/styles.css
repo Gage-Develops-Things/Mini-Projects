@@ -1,0 +1,217 @@
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: black;
+    background-image: url("./Landing-image-space.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#nav {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+nav {
+    display: none;
+}
+
+.line {
+    height: 4px;
+    width: 30px;
+    background-color: rgba(229, 229, 229, 0.5);
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.chathura-regular {
+    color: aliceblue;
+    font-family: "Chathura", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.alumni-sans-pinstripe-regular {
+    font-family: "Alumni Sans Pinstripe", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.h1-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: block;
+    font-size: 17rem;
+    margin: 0;
+    line-height: .6;
+    text-align: center;
+}
+
+.menu {
+    display: none;
+}
+
+#hero:hover .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero:hover .h1-div {
+    display: none;
+}
+
+h3 {
+    font-size: 5rem;
+    display: block;
+    line-height: .5;
+    background-color: rgba(25, 25, 25, .5);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#hero {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    background-color: rgba(25, 25, 25, .5);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+a {
+    color: aliceblue;
+    font-family: "Chathura", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    text-decoration: none;
+    display: block;
+    line-height: 1;
+}
+
+.card {
+    background-image: url("./Landing-image-space.jpg");
+    background-size: cover;
+    padding-bottom: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: aliceblue;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+img{
+    width: 33vw;
+    border-radius: 20px;
+    margin: 1rem;
+    background-color: black;
+    padding: .5rem;
+}
+
+h2 {
+    font-size: 8rem;
+    line-height: 0;
+    display: block;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+.float-left {
+    float: left;
+}
+
+.card-content {
+    background-color: rgba(25, 25, 25, .5);
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+#flex-row {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bottom-card {
+    background-image: url("./Landing-image-space.jpg");
+    background-size: cover;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.black-background {
+    background-color: black;
+}
+
+#footer {
+    background-image: url("./Landing-image-space.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-me {
+    flex:1;
+}
+
+#contact {
+    flex:1;
+}
+
+.f-text {
+    background-color: rgba(25, 25, 25, .5);
+    border-radius: 10px;
+    
+}
+
+h3 + p {
+    background-color: rgba(25, 25, 25, 0.5);
+    color: aliceblue;
+    font-size: 2rem;
+    font-family: "Alumni Sans Pinstripe", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        flex-direction: column;
+    }
+
+    img {
+        width: 90vw;
+    }
+
+    header {
+        background-size: auto;
+    }
+}
