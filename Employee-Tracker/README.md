@@ -30,4 +30,4 @@ This application is covered under the MIT license.
 ## Questions
 You can find my github with the folowwing handle: [Gage-Develops-Things][https://github.com/Gage-Develops-Things]   
 Please direct questions to the following email: 93gaget@gmail.com   
-Find the link to the walkthrough video at the following: [https://github.com/Gage-Develops-Things/Handy-README-Generator/blob/main/assets/Untitled%20Video%20January%2020%2C%202025%2012_38%20PM%20(1).webm]
+Find the link to the walkthrough video at the following: https://drive.google.com/file/d/1g9-K-P8O1UM6F_qalZKxqPCw2Dves3uX/view?usp=sharing
