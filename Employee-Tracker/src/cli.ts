@@ -3,9 +3,9 @@ import { pool, connectToDb } from './connection.js';
 import inquirer from 'inquirer';
 
 await connectToDb();
-
+// command line interface for consumer
 class Cli {
- // method to start the cli
+ // method to start the cli.  Includes list of choices.
  startCli(): void {
     inquirer
       .prompt([
@@ -66,6 +66,7 @@ class Cli {
 
       });
     }
+ // add department method
  addDepartment(): void {
     inquirer
         .prompt([
@@ -89,6 +90,7 @@ class Cli {
             });
         });
  }
+ // add role method
  addRole(): void {
     inquirer
         .prompt([
@@ -124,6 +126,7 @@ class Cli {
             });
         });
     }
+ // add employee method
  addEmployee(): void {
     inquirer
         .prompt([
@@ -167,6 +170,7 @@ class Cli {
             });
         });
     }
+ // update employee role method
  updateEmployeeRole(): void {
     inquirer
         .prompt([
@@ -197,5 +201,7 @@ class Cli {
         });
     }
 };
+
+// start the CLI
 const cli = new Cli();
 cli.startCli();
